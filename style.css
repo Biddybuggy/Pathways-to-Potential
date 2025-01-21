@@ -17,3 +17,30 @@ body {
     font-family:verdana;
     font-size:15px;
   }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+  nav {
+      background-color: #333; /* Dark background color */
+      overflow: hidden; /* Clear floats */
+      padding: 10px 0; /* Padding for height */
+  }
+
+  /* Links inside the navbar */
+  nav a {
+      color: white; /* Text color */
+      text-decoration: none; /* Remove underline */
+      padding: 14px 20px; /* Add space around the links */
+      display: inline-block; /* Make links inline */
+      transition: background-color 0.3s; /* Smooth hover effect */
+  }
+
+  /* Links hover effect */
+  nav a:hover {
+      background-color: #575757; /* Slightly lighter background on hover */
+      color: #f1f1f1;
+  }
