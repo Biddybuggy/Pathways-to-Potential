@@ -66,3 +66,15 @@ nav a:hover {
 body {
     padding-top: 60px; /* For spacing under the navbar */
 }
+
+#language-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
