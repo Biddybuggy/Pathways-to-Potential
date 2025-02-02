@@ -1,46 +1,68 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Open+Sans:wght@600&display=swap');
+
+/* Global Reset and Body Styles */
 body {
-    background-color: bisque
-  }
-  
-  h1, h2, h3, h4 {
-    text-align: center;
-    font-family: verdana;
-  }
-  
-  p {
-    text-align:center;
-    font-family: verdana;
-    font-size: 15px;
-  }
-
-  li {
-    font-family:verdana;
-    font-size:15px;
-  }
-
-  body {
+    background-color: #F5F5DC; /* Soft beige background */
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Lora', serif; /* Elegant serif font for body text */
+    line-height: 1.7; /* Slightly increased line height for readability */
+    color: #333; /* Dark text for better contrast */
 }
 
-/* Navbar container */
-  nav {
-      background-color: #333; /* Dark background color */
-      overflow: hidden; /* Clear floats */
-      padding: 10px 0; /* Padding for height */
-  }
+/* Headings Styling */
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; /* Clean, modern sans-serif for headings */
+    color: #333;
+    margin-bottom: 20px; /* Space below headings */
+    font-weight: 600; /* Semi-bold for headings */
+}
 
-  /* Links inside the navbar */
-  nav a {
-      color: white; /* Text color */
-      text-decoration: none; /* Remove underline */
-      padding: 14px 20px; /* Add space around the links */
-      display: inline-block; /* Make links inline */
-      transition: background-color 0.3s; /* Smooth hover effect */
-  }
+/* Paragraph Styling */
+p {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 17px; /* Slightly larger for readability */
+    color: #555; /* Softer text color */
+    margin: 0 15px; /* Margin for responsiveness */
+}
 
-  /* Links hover effect */
-  nav a:hover {
-      background-color: #575757; /* Slightly lighter background on hover */
-      color: #f1f1f1;
-  }
+/* List Styling */
+li {
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Navbar Container */
+nav {
+    background-color: #333; /* Dark background for navbar */
+    display: flex; /* Use Flexbox to arrange items */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    padding: 12px 0; /* Padding for navbar height */
+}
+
+/* Navbar Links */
+nav a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 14px 20px;
+    display: inline-block;
+    text-transform: uppercase; /* Clean, structured links */
+    letter-spacing: 1px; /* Slightly spaced letters for better visual appeal */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Navbar Links Hover Effect */
+nav a:hover {
+    background-color: #575757; /* Lighter background on hover */
+    color: #f1f1f1; /* Lighter text color on hover */
+}
+
+/* Adding Some Padding to the Body for Better Spacing */
+body {
+    padding-top: 60px; /* For spacing under the navbar */
+}
